@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "threadPool.corePoolSize",
+      "type": "java.lang.String",
+      "description": "Description for threadPool.corePoolSize."
+  }
+] }
