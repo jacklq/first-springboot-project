@@ -4,5 +4,6 @@ import com.lqstudy.test.entity.UserEntity;
 
 public interface IUserService {
     public UserEntity getById(Integer id);
+    public UserEntity getByFirstName(String name);
 }
 

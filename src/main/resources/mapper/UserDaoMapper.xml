@@ -7,4 +7,9 @@
         from test
         where id = #{id}
     </select>
+    <select id="getByFirstName" resultType="com.lqstudy.test.entity.UserEntity" parameterType="java.lang.String" >
+        select  *
+        from test
+        where first_name = #{name}
+    </select>
 </mapper>

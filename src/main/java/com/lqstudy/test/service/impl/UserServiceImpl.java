@@ -14,4 +14,8 @@ public class UserServiceImpl {
     public UserEntity getById(Integer id){
         return userDao.getById(id);
     }
+
+    public UserEntity getByFirstName(String name){
+        return userDao.getByFirstName(name);
+    }
 }

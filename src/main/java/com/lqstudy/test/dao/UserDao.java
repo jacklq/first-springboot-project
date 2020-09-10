@@ -7,5 +7,6 @@ import org.apache.ibatis.annotations.Mapper;
 public interface UserDao {
 
     UserEntity getById(Integer id);
+    UserEntity getByFirstName(String firstName);
 
 }
